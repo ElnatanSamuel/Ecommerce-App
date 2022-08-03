@@ -1,0 +1,94 @@
+.slider{
+  height: 100vh;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("https://blog.blacklane.com/wp-content/uploads/2019/04/Untitled-design-2019-04-24T151310.259.png");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  position: relative;
+}
+
+.content2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("https://img.freepik.com/premium-photo/interior-men-s-clothing-store-style-fashion_120897-3074.jpg?w=2000");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  position: relative;
+}
+
+.content3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZmFzaGlvbiUyMGdpcmx8ZW58MHx8MHx8&w=1000&q=80");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  position: relative;
+}
+
+.opacity{
+  background: #000;
+  opacity: .5;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.textcontent{
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.head{
+  font-weight: 700;
+  font-size: 50px;
+  color: rgb(254, 251, 243);
+  margin-bottom: 5px;
+}
+
+.paragraph{
+  
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(254, 251, 243);
+  
+}
+
+.btn{
+  font-size: 16px;
+  font-weight: 700;
+  padding: 1rem;
+  background: rgb(157, 157, 157);
+  color: rgb(254, 251, 243);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px){
+	.slider{
+		display: none;
+	}
+}

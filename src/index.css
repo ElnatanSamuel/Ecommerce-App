@@ -1,0 +1,180 @@
+*{
+	
+	padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;}
+
+footer{
+  display: flex;
+/* align-items: center; */
+  justify-content: space-between;
+  background: hsl(220, 13%, 13%);
+/*   height: 20rem; */
+ padding: 6rem 4rem;
+
+}
+
+.footerlinks{
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.footer-head{
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  
+}
+
+.footerlist{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: flex-start;
+}
+
+.footerlist li{
+	display: flex;
+	justify-content: flex-start;
+  margin-top: 2rem;
+  color: rgba(255,255,255,.8);
+  cursor: pointer;
+  list-style: none;
+}
+
+.community-footer{
+  display: flex;
+  flex-direction: column;
+/*   justify-content: center; */
+  text-align: center;
+}
+
+.footer-para{
+  color: rgba(255,255,255,.8);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.community-input{
+  display: flex;
+  align-items: center;
+}
+
+.footer-input{
+  width:30rem;
+  height: 1rem;
+  background: transparent;
+border: 1px solid rgba(255,255,255,.8);
+  outline: none;
+  padding: 1rem;
+  font-weight: 700;
+  color: rgba(255,255,255,.8)
+}
+
+.footer-btn{
+	cursor: pointer;
+  color: black;
+  height: 3.1rem;
+  width: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,.8);
+border: 1px solid rgba(255,255,255,.8);
+  outline: none;
+  border: none;
+}
+@media (max-width: 972px){
+  footer{
+     padding: 6rem 1rem;
+  }
+  .footer-input{
+    width: 20rem;
+  }
+}
+
+@media (max-width: 772px){
+  footer{
+     padding: 4rem 1rem;
+  }
+  .footer-input{
+    width: 15rem;
+  }
+  .footerlist, .footer-para{
+    font-size: .7rem;
+  }
+  .footer-head{
+    font-size: .8rem;
+  }
+}
+@media (max-width: 586px){
+  footer{
+     padding: 6rem 1rem;
+  }
+  .footer-input{
+    width: 10rem;
+  }
+}
+
+.Collapsible{
+  background: hsl(220, 13%, 13%);
+  padding: 3rem 0rem 0rem 0rem;
+}
+
+.Collapsible__trigger{
+    font-size: 1rem;
+    font-weight: 700;
+  color: white;
+  margin: 2rem 1rem;
+  padding: 2rem 0rem;
+  cursor: pointer;
+}
+
+.Collapsible__contentInner{
+  padding: 0rem 2rem;
+}
+
+.Collapsible__contentOuter{
+  margin-top: 1rem;
+  
+  padding: 0rem 0rem 2rem 0rem;
+}
+.footeraccord{
+  display: none;
+}
+
+@media (max-width: 510px){
+  footer{
+    display: none;
+  }
+  .footeraccord{
+    display: block;
+  }
+  .footerlist li, .footer-para{
+  font-size: 1rem;
+  }
+  .footer-input{
+    width: 15em;
+  }
+}
+
+@media (max-width: 431px){
+  .footer-input{
+    width: 10em;
+  }
+}

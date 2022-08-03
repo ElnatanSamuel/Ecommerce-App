@@ -1,0 +1,147 @@
+.section{
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.left{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.middle{
+  flex: 1;
+  margin-left: 1rem;
+}
+
+.right{
+  flex: 2;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.sale{
+  height: 300px;
+  width: 100%;
+  margin-top: 1rem;
+  background-image: url("https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWVucyUyMGZhc2hpb258ZW58MHx8MHx8&w=1000&q=80");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.new{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background: orange;
+  height: 300px;
+  width: 100%;
+  background-image: url("https://w0.peakpx.com/wallpaper/937/256/HD-wallpaper-women-women-indoors-brunette-striped-clothing-open-clothes-sports-bra.jpg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.women{
+  background: orange;
+  height: 616px;
+  width: 100%;
+  background-image: url("https://www.fila.de/out/pictures/generated/product/1/740_740_100/fila_barr_cropped_wide_tee_6440435_1137.jpg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; 
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.men{
+  background: orange;
+  height: 300px;
+  width: 100%;
+  margin-top: 1rem;
+  background-image: url("https://robbreport.com/wp-content/uploads/2021/10/FOG_Image7.jpg?w=1000");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.access{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background: orange;
+  height: 300px;
+  width: 100%;
+  background-image: url("https://media.istockphoto.com/photos/table-top-flat-lay-men-accessories-picture-id652278092?b=1&k=20&m=652278092&s=170667a&w=0&h=wj-nCkX3fthse1Se6JiX4J1LgPyDUVYDsYdfo-sASyE=");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btn{
+  outline: none;
+  border: none;
+  height: 3rem;
+  width: 8rem;
+  font-size: 14px;
+  font-weight: 700;
+background: rgb(248, 240, 223);
+}
+
+@media (max-width: 768px){
+	.section{
+		flex-direction: column;
+		align-items: unset;
+	}
+
+	.left{
+		
+	}
+	.sale{
+		flex: 1;
+		height: 200px;
+	}	
+
+	.new{
+		flex: 1;
+		height: 200px;
+	}
+
+	.right{
+flex-direction: row;
+	}
+.women{
+	height: 200px;
+}
+
+.men{
+		height: 200px;
+}
+.access{
+		height: 200px;
+}
+}
